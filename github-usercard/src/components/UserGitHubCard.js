@@ -46,7 +46,7 @@ const UserContainer = styled.div`
 `;
 
 const UserGitHubCard = (props) => {
-  console.log(" UserGitHibCard component is invoked");
+  console.log(" UserGitHubCard component is invoked");
 
   return (
     <UserContainer>

@@ -47,15 +47,15 @@ const FollowersCard = (props) => {
       {props.followers.map((followers) => (
         <FollowersContainer>
           <div key={followers.id}>
-            <img src={followers.avatar_url} alt={followers.name} />
-            <div className="right">
-              <div className="username">
-                <h3>Username: {followers.login}</h3>
-              </div>
-              <div className="link">
-                <a href={followers.html_url}>Website: {followers.html_url}</a>
-              </div>
+          <img src={followers.avatar_url} alt={followers.name} />
+          <div className="right">
+            <div className="username">
+              <h3>Username: {followers.login}</h3>
             </div>
+            <div className="link">
+              <a href={followers.html_url}>Website: {followers.html_url}</a>
+            </div>
+          </div>
           </div>
         </FollowersContainer>
       ))}
